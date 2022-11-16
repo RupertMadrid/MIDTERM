@@ -20,6 +20,3 @@ cd tempdir
 docker build -t midtermapp .
 docker run -t -d -p 5050:5050 --name midtermdock midtermapp
 docker ps -a
-
-jenkins:
-42afd59951a14c8d962c98171191b050
